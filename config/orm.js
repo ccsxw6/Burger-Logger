@@ -36,7 +36,7 @@ const orm = {
 // WHERE CustomerID = 1;
 
 
-//STOPPED HERE TO FIGURE OUT HOW TO DO THIS - WATCH VIDEO EXPLANATION OF UNIT 13 ACT 16 
+//STOPPED HERE TO FIGURE OUT HOW TO DO THIS - WATCH VIDEO EXPLANATION OF UNIT 13 ACT 16 2/9 class
 
   updateOne(table_Name, column1, column2, burer, TorF) {
     const queryString = 'UPDATE ?? SET ?? ';
