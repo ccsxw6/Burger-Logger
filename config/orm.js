@@ -86,4 +86,6 @@ var orm = {
     }
 };
 
+// SHOULD ADD A DELETE - NOT REQUIRED BUT WOULD BE NICE
+
 module.exports = orm;
