@@ -9,4 +9,4 @@ This application is deployed on Heroku and uses MySQL, Node, Express, Handlebars
 
 ## Installation
 Link to website:
-[Web App Link](hhttps://polar-ridge-96912.herokuapp.com/burgers)
+[Web App Link](https://polar-ridge-96912.herokuapp.com/burgers)
