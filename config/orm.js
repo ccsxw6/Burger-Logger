@@ -47,8 +47,6 @@ const orm = {
             cb(result);
         });
     },
-    
-    // an example of objColVals would be {name: panther, sleepy: true}
     updateOne(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
@@ -64,7 +62,7 @@ const orm = {
             }
             cb(result);
         });
-    }
+    }, 
 };
 
 module.exports = orm;

@@ -1,7 +1,6 @@
-  
-var orm = require("../config/orm.js");
+let orm = require("../config/orm.js");
 
-var burger = {
+let burger = {
     selectAll(cb) {
         orm.selectAll("burgers", function (res) {
             cb(res);
@@ -15,7 +14,7 @@ var burger = {
         ], cb);
     },
     updateOne(id, cb) {
-        var condition = "id=" + id;
+        let condition = "id=" + id;
         orm.updateOne("burgers", {
             devoured: true
         }, condition, cb);
@@ -23,4 +22,3 @@ var burger = {
 };
 
 module.exports = burger;
-

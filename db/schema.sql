@@ -1,13 +1,40 @@
-DROP DATABASE IF EXISTS burgers_db;
-
-CREATE DATABASE burgers_db;
-
+CREATE DATABASE IF NOT EXISTS burgers_db;
 USE burgers_db;
 
-CREATE TABLE burgers(
-  id INT AUTO_INCREMENT,
-  burger_name VARCHAR(100),
-  devoured BOOLEAN, 
-  PRIMARY KEY(id)
+DROP TABLE IF EXISTS burgers;
+
+CREATE TABLE burgers (
+    id int NOT NULL AUTO_INCREMENT,
+    burger_name varchar(255) NOT NULL,
+    devoured BOOL DEFAULT false,
+    PRIMARY KEY (id)
 );
+
+/* JAWS DB SCHEMA */
+
+/* 
+USE acahov4xh2vgt28p;
+DROP TABLE IF EXISTS burgers;
+CREATE TABLE burgers (
+    id int NOT NULL AUTO_INCREMENT,
+    burger_name varchar(255) NOT NULL,
+    devoured BOOL DEFAULT false,
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+*/
+
+
+
+
+
+
+
+-- My jaws schema!!! USE tnxbwy7xvn7pghia;
+-- CREATE TABLE burgers(
+--   id INT AUTO_INCREMENT,
+--   burger_name VARCHAR(100),
+--   devoured BOOLEAN, 
+--   PRIMARY KEY(id)
+-- );
 

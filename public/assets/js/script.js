@@ -1,15 +1,14 @@
+//Tried using arrow functions here, but it didn't work
 $(document).ready(function () {
-
-    $(".devour-form").on("submit", (event) => {
+    $(".devour-form").on("submit", function (event) {
         event.preventDefault();
-
-        var burger_id = $(this).children(".burger_id").val();
+        const burger_id = $(this).children(".burger_id").val();
         console.log(burger_id);
         $.ajax({
             method: "PUT",
             url: "/burgers/" + burger_id
-        }).then((data) => {
+        }).then(function (data) {
             location.reload();
         });
     });
-});  
+});
