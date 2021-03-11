@@ -12,5 +12,9 @@ Link to website:
 [Web App Link](https://polar-ridge-96912.herokuapp.com/burgers)
 
 ## Technologies Used
-
+- Node.js
+- Express.js
+- MySQL
+- Handlebars
+- ORM
 
