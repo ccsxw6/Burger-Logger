@@ -20,3 +20,4 @@ Link to website:
 
 ## Contact
 GitHub: https://github.com/ccsxw6
+Email: ccsxw6@gmail.com
