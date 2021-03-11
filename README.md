@@ -7,6 +7,10 @@ This application is deployed on Heroku and uses MySQL, Node, Express, Handlebars
 
 ![GIF Of Functionality](burgergif.gif)
 
-## Installation
+## Deployment
 Link to website:
 [Web App Link](https://polar-ridge-96912.herokuapp.com/burgers)
+
+## Technologies Used
+
+
